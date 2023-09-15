@@ -1,7 +1,9 @@
 package interview.task.tone.util;
 
-import java.util.Map;
+import interview.task.tone.model.OccurrenceRequest;
 
 public interface OccurrenceStrategy {
-    Map<Character, Long> calculateOccurrence(String s);
+    String calculateOccurrence(String s);
+
+    String calculateOccurrence(OccurrenceRequest occurrenceRequest);
 }

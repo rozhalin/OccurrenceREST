@@ -5,11 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.*;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Occurrence extends GenericModel {
-    private String data;
-
+//@MappedSuperclass
+public class GenericModel {
+    @Id
+    private Long id;
 }
