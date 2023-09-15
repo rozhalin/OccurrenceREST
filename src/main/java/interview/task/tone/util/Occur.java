@@ -1,8 +1,8 @@
 package interview.task.tone.util;
 
 public class Occur {
-    public char c;
-    public long l;
+    public Character c;
+    public Long l;
 
     public Occur(char c, long l) {
         this.c = c;

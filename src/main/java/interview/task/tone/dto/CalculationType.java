@@ -1,4 +1,4 @@
-package interview.task.tone.model;
+package interview.task.tone.dto;
 
 public enum CalculationType {
     ARRAY,

@@ -1,7 +1,5 @@
 package interview.task.tone.dto;
 
-import interview.task.tone.model.CalculationOrder;
-import interview.task.tone.model.CalculationType;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 

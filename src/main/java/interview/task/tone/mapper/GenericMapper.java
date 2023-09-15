@@ -1,7 +1,7 @@
 package interview.task.tone.mapper;
 
 import interview.task.tone.dto.GenericDto;
-import interview.task.tone.model.GenericModel;
+import interview.task.tone.core.model.GenericModel;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;

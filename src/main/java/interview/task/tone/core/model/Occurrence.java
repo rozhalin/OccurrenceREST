@@ -1,18 +1,16 @@
-package interview.task.tone.model;
+package interview.task.tone.core.model;
 
+import interview.task.tone.util.Occur;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-//@MappedSuperclass
-public class GenericModel {
-    @Id
-    private Long id;
+public class Occurrence extends GenericModel {
+    private Iterable<Occur> data;
+
 }
